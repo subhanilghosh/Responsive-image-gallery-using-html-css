@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery{
+    flex: 25%;
+}
+
+.image{
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 700px){
+    .gallery{
+        flex: 50%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .gallery{
+        flex: 100%;
+    }
+}
